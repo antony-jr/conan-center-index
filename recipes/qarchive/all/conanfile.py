@@ -23,7 +23,7 @@ class QarchiveConan(ConanFile):
         "fPIC": [True, False],
     }
     default_options = {
-        "shared": False,
+        "shared": True,
         "fPIC": True,
     }
 
